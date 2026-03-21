@@ -8,9 +8,5 @@ pinned: false
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-## Contributors
-- Pragyan Prayas Jena 
-- A
-- A
-- P
-- R
+
+//update needed
