@@ -1,0 +1,2 @@
+Model,Dataset,Accuracy,F1,Precision,Recall,Best_Threshold,Best_Threshold_F1
+HateBERT+CDA+Asym,HateXplain (zero-shot),0.658,0.7717,0.6737,0.9031,0.15,0.781

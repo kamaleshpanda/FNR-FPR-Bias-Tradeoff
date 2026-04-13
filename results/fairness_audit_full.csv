@@ -1,0 +1,22 @@
+Identity,Model,Subgroup_N,FPR_Sub,FPR_Back,FPR_Gap,FNR_Sub,FNR_Back,FNR_Gap,FPR_Severity,FNR_Severity
+male,LR Baseline,91,0.04,0.0043,0.0357,0.8333,0.7545,0.0788,Moderate,Serious
+female,LR Baseline,106,0.0,0.0086,0.0086,0.7949,0.761,0.0339,Minimal,Moderate
+homosexual_gay_or_lesbian,LR Baseline,38,0.125,0.004,0.121,0.7333,0.7705,0.0372,Serious,Moderate
+christian,LR Baseline,33,0.0,0.008,0.008,0.7391,0.7694,0.0303,Minimal,Moderate
+muslim,LR Baseline,29,0.0,0.0079,0.0079,0.7391,0.7694,0.0303,Minimal,Moderate
+black,LR Baseline,39,0.25,0.0039,0.2461,0.8286,0.7618,0.0668,Serious,Serious
+white,LR Baseline,52,0.0769,0.004,0.0729,0.7436,0.7703,0.0267,Serious,Moderate
+male,Vanilla BERT,91,0.4,0.217,0.183,0.0909,0.0939,0.003,Serious,Minimal
+female,Vanilla BERT,106,0.3929,0.2155,0.1773,0.1026,0.0912,0.0114,Serious,Minimal
+homosexual_gay_or_lesbian,Vanilla BERT,38,0.5,0.2262,0.2738,0.0667,0.0956,0.029,Serious,Moderate
+christian,Vanilla BERT,33,0.3,0.232,0.068,0.0435,0.0965,0.053,Serious,Serious
+muslim,Vanilla BERT,29,0.6667,0.2244,0.4423,0.087,0.0938,0.0069,Serious,Minimal
+black,Vanilla BERT,39,0.75,0.2266,0.5234,0.0857,0.0942,0.0085,Serious,Minimal
+white,Vanilla BERT,52,0.6154,0.2146,0.4008,0.0769,0.0952,0.0183,Serious,Minimal
+male,Adaptive BERT,91,0.48,0.2426,0.2374,0.0909,0.097,0.0061,Serious,Minimal
+female,Adaptive BERT,106,0.3929,0.25,0.1429,0.1154,0.0912,0.0242,Serious,Moderate
+homosexual_gay_or_lesbian,Adaptive BERT,38,0.75,0.25,0.5,0.0333,0.1011,0.0678,Serious,Serious
+christian,Adaptive BERT,33,0.4,0.26,0.14,0.0435,0.0992,0.0557,Serious,Serious
+muslim,Adaptive BERT,29,0.6667,0.2559,0.4108,0.1304,0.0938,0.0366,Serious,Moderate
+black,Adaptive BERT,39,1.0,0.2539,0.7461,0.0571,0.0997,0.0426,Serious,Moderate
+white,Adaptive BERT,52,0.7692,0.2389,0.5304,0.0769,0.098,0.0211,Serious,Moderate
